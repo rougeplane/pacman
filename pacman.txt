@@ -1,0 +1,51 @@
+Task #1
+---------
+
+-- key to ascii program
+-- getch() //conio.h
+
+
+Task #2 : Move a character on screen using arrow keys
+--------
+
+int down
+int right
+
+1) clrscr
+2) for loop for down
+3) for loop for up.
+
+----------------------------------------------------------
+
+Task #3: 
+
+1) Create a text file of 20by20 integers. 
+2) Each integer can be either 1 or 0. Where 0 means a path and 1 means a brick.
+3) Read file in a two dimension array of int.
+4) Print that array on screen.
+5) Now print . instead of 0 and | instead of 1.
+--------------------------------------------------------------------------------
+
+Task #4:
+
+1) Combine Task #3 with Task #1 and #2.
+2) ...
+
+--------------------------------------------------------------------------------------
+Task #5:Dont cross your boundaries
+1)down arrow should never be more than 20 or negative.
+2)same is with right arrow.
+3)P check for 1 or 0 in the matrix, move to new location only if it does not have 1 in it otherwise stays in the current location.
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Task #6: Lets start scoring
+1) if P's location has 0 then change it to 2.
+2) if there is 2 print 2 spaces.
+3) Create a score variable.
+4) increment score by one when 0 turns into 2.
+5) In Print matrix function add score at the end and at centre.
+------------------------------------------------------------------------------------------------
+
+Task #7: Making the enemies part 1.
+1) 
