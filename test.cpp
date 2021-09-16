@@ -1,23 +1,17 @@
-#include <iostream>
-#include <conio.h>
-#include <fstream>
-#include <math.h>
-#include <sstream>
+#include "grid.h"
+#include "chase.h"
 
-using namespace std;
 
-void create_grid(int grid);
 
 int main(){
+    readFileInMatrix();
+    populateChaseM(11, 12);
+    printarr();
 
-    const int GRID_SIZE = 20;
-    int gridarray [20][20];
-    string text;
+    std::cout << "\n\n\n\n";
 
-    ifstream gridr("Grid.txt");
+    populateChaseM(19, 18);
+    printarr();
 
-    while (getline (gridr, text)){
-        cout << text << endl;
-    }
-    
+    return 0;
 }

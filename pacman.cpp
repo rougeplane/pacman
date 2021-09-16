@@ -2,6 +2,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include "grid.h"
+#include "chase.h"
 using namespace std;
 
 
@@ -54,9 +55,10 @@ int main()
             right = preRight;
         }
         
-
+        populateChaseM(down, right);
+        realChaseUP(&downU, &rightU);
         printMatrix(down, right);
-        
+        printf("\n\n %d, %d \n", downU, rightU);
     }
 
     return 0;
